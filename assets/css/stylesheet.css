@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Navbar Starts */
+#nav{
+    position:fixed !important;
+    width: 100%;
+    top: 0;
+    z-index: 12;
+}
+#tea a{
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+}
+#tea a:hover{
+    border-bottom: 2px solid green;
+    color: green;
+}
+/* NavBar Ends */
+
+/* carousel Starts */
+.carousel-caption{
+    margin-bottom: 13%;
+}
+.text111 h1{
+    font-weight: 900; 
+    color: black;
+    font-size: 50px;
+}
+.explore {
+    display: inline-block;
+    margin-top: 20px;
+  
+}
+.explore a{
+    background-color: #fff;
+    color: black;
+    border-radius: 2.3rem;
+}
+.explore a:hover{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+}
+
+/* carousel Ends */
+
+/* About Starts */
+.line{
+    border-bottom: 2px solid green;
+    width: 50%;
+}
+/* About Ends */
+
+/* Product Starts*/
+#product{
+    background-color: rgb(209, 255, 209);
+}
+.text1 h1{
+    font-weight: 700; 
+    color: black;
+    font-size: 40px;
+}
+@media screen and (max-width:425px) {
+    .text1 h1{
+        font-weight: 700; 
+        color: black;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:375px) {
+    .text1 h1{
+        font-weight: 700; 
+        color: black;
+        font-size: 20px;
+    }
+}
+.text2 h1{
+    font-weight: 700; 
+    color: black;
+    font-size: 40px;
+}
+@media screen and (max-width:425px) {
+    .text2 h1{
+        font-weight: 700; 
+        color: black;
+        font-size: 30px;
+    }
+}
+.p2{
+    position: relative;
+    background-color: #fff;
+    bottom: 20%;
+    max-width: 280px;
+}
+.p2 h4{
+    color: green;
+}
+/* Product Ends*/
+
+/* Feature Starts */
+.feature {
+    display: inline-block;
+    margin-top: 20px;
+}
+.feature a{
+    background-color: green;
+    color: #fff;
+    border-radius: 2.3rem;
+}
+.feature:hover{
+    transform: scale(1.2,1.2);
+}
+.feature a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#back{
+    background: url(5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.b1 .bb{
+    font-weight: 800; 
+    color: black;
+    font-size: 30px;
+}
+.b1 .bw{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800; 
+}
+.check{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+@media screen and (max-width:425px) {
+    .tick{
+        flex-wrap: wrap !important;
+        gap: 20px;
+    }
+    #back{
+        background: url(5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125vh;
+    }
+    .text111 h1{
+        font-size: 25px !important;
+        color: black !important;
+    }
+    .carousel-caption{
+        margin-bottom: 50%;
+    }
+}
+/* Feature Ends */
+
+/* Contact Starts */
+#conct a{
+    color: black;
+}
+#conct a:hover{
+    color: green;
+}
+#quick a{
+    color:#fff
+}
+#quick a:hover{
+    text-decoration: none;
+    color: lightgreen;
+}
+#buiss{
+    color: #fff;
+}
+form button{
+    position: relative;
+    right: 80px;
+    margin: 6px;
+}
+footer{
+    padding: 15px;
+    background-color: rgb(78, 59, 59);
+}
+
+/* Contact Ends */
